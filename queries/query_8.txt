@@ -1,0 +1,3 @@
+SELECT COUNT(*) AS `no_phone`
+FROM `teachers`
+WHERE `phone` IS NULL;
